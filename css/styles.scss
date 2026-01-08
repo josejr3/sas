@@ -5,10 +5,22 @@ body {
 }
 
 @mixin tarjeta(){
+  width: 300px;
   border-radius: 3%;
   aspect-ratio: 1/2;
+  background-repeat: no-repeat;
 }
 
-#tarjeta{
 
+
+@for $i from 1 through 2 {
+    .cursos:nth-child(#{$i}) {
+      background-image: url("../../img/#{$i}.png");
+      
+    }
 }
+
+.cursos div{
+  @include tarjeta();
+}
+

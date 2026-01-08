@@ -2,4 +2,19 @@ body {
   color: #333;
 }
 
+.cursos:nth-child(1) {
+  background-image: url("../../img/1.png");
+}
+
+.cursos:nth-child(2) {
+  background-image: url("../../img/2.png");
+}
+
+.cursos div {
+  width: 300px;
+  border-radius: 3%;
+  aspect-ratio: 1/2;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=styles.css.map */

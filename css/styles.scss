@@ -1,0 +1,14 @@
+$primary-color: #333;
+
+body {
+  color: $primary-color;
+}
+
+@mixin tarjeta(){
+  border-radius: 3%;
+  aspect-ratio: 1/2;
+}
+
+#tarjeta{
+
+}
